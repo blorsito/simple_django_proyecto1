@@ -35,5 +35,5 @@ urlpatterns = [
     path('diaDeHoy/',diaDeHoy),
     path('miNombreEs/<nombre>',miNombreEs),    
     path('probandoTemplate/',probandoTemplate),
-    path('yearcumple/<edad>', calculate_birth_year),   
+    path('yearcumple/<int:age>', calculate_birth_year),   
 ]
